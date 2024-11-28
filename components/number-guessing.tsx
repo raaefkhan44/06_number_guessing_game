@@ -1,10 +1,8 @@
 "use client";
-
 import { useState, useEffect, ChangeEvent } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { motion } from "framer-motion";
-
 
 export default function NumberGuessing(): JSX.Element {
   const [gameStarted, setGameStarted] = useState<boolean>(false);
